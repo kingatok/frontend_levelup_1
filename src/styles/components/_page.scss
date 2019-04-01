@@ -1,0 +1,7 @@
+@import 'abstracts/_variables';
+
+.page {
+    display: flex;
+    justify-content: center;
+    font-family: $text-font;
+}

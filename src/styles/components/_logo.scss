@@ -1,0 +1,10 @@
+@import 'abstracts/_variables';
+
+.logo {
+    border: 3px solid $logo-color;
+    padding: 10px 20px;
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    color: $logo-color;
+}

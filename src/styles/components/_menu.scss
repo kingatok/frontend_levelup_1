@@ -1,0 +1,22 @@
+@import 'abstracts/_variables';
+
+.menu {
+    .menu__inner {
+        padding: 0;
+        margin: 0;
+        margin-top: 70px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .menu__item {
+            padding: 0 15px;
+
+            .menu__link {
+                text-decoration: none;
+                color: $menu-text-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@import 'abstracts/_variables';
+
+.container {
+    margin-top: 30px;
+    background-color: $background-color;
+    width: 1000px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
